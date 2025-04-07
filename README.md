@@ -1,4 +1,4 @@
-# Triangle Geometry Analyzer – MATLAB (Numerical Methods Homework 1)
+# Triangle Geometry Analyzer – MATLAB 
 
 This MATLAB project reads the coordinates of a triangle from a file, calculates its area, centroid, performs a rotation, and generates a plot of the original and rotated triangles. The rotated coordinates are saved to a separate file.
 
