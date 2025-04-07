@@ -1,9 +1,5 @@
 #  Triangle Geometry Analysis
 
-**Student:** Yasmine Elsisi  
-**Course:** Numerical Methods  
-**Date:** October 27, 2024  
-
 ---
 
 ## 1. Description of Work
