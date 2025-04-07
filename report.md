@@ -75,40 +75,6 @@ Rotated matrix =
 -0.707107 6.363961
 ```
 
----
-
-## 3. Appendix
-
-### 3.1 `area.m`
-```matlab
-function A = area(X)
-    x1 = X(1,1); x2 = X(1,2); x3 = X(1,3);
-    y1 = X(2,1); y2 = X(2,2); y3 = X(2,3);
-    A = 0.5 * abs((x2 - x1)*(y3 - y1) - (x3 - x1)*(y2 - y1));
-end
-```
-
-### 3.2 `centroid.m`
-```matlab
-function xc = centroid(X)
-    x1 = X(1,1); x2 = X(1,2); x3 = X(1,3);
-    y1 = X(2,1); y2 = X(2,2); y3 = X(2,3);
-    xc = [(x1 + x2 + x3)/3, (y1 + y2 + y3)/3];
-end
-```
-
-### 3.3 `matrotate.m`
-```matlab
-function Xrotated = matrotate(X, phi)
-    R = [cos(phi), -sin(phi); sin(phi), cos(phi)];
-    Xrotated = zeros(2, 3);
-    for i = 1:2
-        for j = 1:3
-            Xrotated(i, j) = R(i, 1) * X(1, j) + R(i, 2) * X(2, j);
-        end
-    end
-end
-```
 
 ---
 
