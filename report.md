@@ -1,4 +1,4 @@
-# Numerical Methods Homework 1 – Triangle Geometry Analysis
+#  Triangle Geometry Analysis
 
 **Student:** Yasmine Elsisi  
 **Course:** Numerical Methods  
